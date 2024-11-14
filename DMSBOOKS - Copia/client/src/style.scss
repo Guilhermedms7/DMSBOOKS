@@ -1,0 +1,98 @@
+.app {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  .addHome {
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: #ff5800;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  .books {
+    display: flex;
+
+    .book {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+
+      img {
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+      }
+
+      button {
+        padding: 2px 6px;
+        background-color: white;
+        cursor: pointer;
+        margin-bottom: 10px;
+      }
+      
+      .delete {
+        border: 1px solid rgb(245, 191, 191);
+        color: rgb(242, 100, 100);
+      }
+      .update {
+        border: 1px solid rgb(204, 204, 243);
+        color: rgb(34, 34, 190);
+      }
+    }
+  }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  max-width: 400px; /* Define uma largura máxima para o formulário */
+  margin: 60px auto; 
+  padding: 20px;
+  background-color: #f9f9f9; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  width: 100%; /* O input ocupará toda a largura disponível */
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 100%; /* O textarea ocupará toda a largura disponível */
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  resize: vertical; 
+}
+
+button {
+  border: none;
+  padding: 10px;
+  background-color: #ff5800;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s; 
+}
+
+button:hover {
+  background-color: #e14e00; 
+}
+
+}
